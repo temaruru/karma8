@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WorldTrends</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="assets/normalize.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="wrapper" id="tabs2">
+    <header class="header">
+      <a href="/" class="header__logo"></a>
+      <ul class="tabs">
+        <li class="tabs__link"><a href="#section1">Charts</a></li>
+        <li class="tabs__link tabs__link--active"><a href="#section2">News</a></li>
+      </ul>
+    </header>
+
+    <div class="charts" id="section1">
+      <h1 class="title">Charts</h1>
+      <div class="charts__info">
+        <div class="charts__info-item">
+          <div class="charts__info-title">Chart 1</div>
+          <div class="charts__info-subtitle"> 136 GB</div>
+        </div>
+
+        <div class="charts__info-item">
+          <div class="charts__info-title">Chart 2</div>
+          <div class="charts__info-subtitle"> 42 GB</div>
+        </div>
+      </div>
+      <div id="tabs" style="width: 100%; height: 360px">
+        <div class="tabs__actions">
+          <button class="arrow"></button>
+          <ul class="tabsSecond">
+            <li class="month selected"><a href="#tabs-1">Aug, 24</a></li>
+            <li class="month"><a href="#tabs-2">Sep, 24</a></li>
+            <li class="month"><a href="#tabs-1">Oct, 24</a></li>
+            <li class="month"><a href="#tabs-2">Nov, 24</a></li>
+            <li class="month"><a href="#tabs-1">Dec, 24</a></li>
+            <li class="month"><a href="#tabs-2">Jan, 24</a></li>
+            <li class="month"><a href="#tabs-1">Feb, 24</a></li>
+            <li class="month"><a href="#tabs-2">Mar, 24</a></li>
+            <li class="month"><a href="#tabs-1">Apr, 24</a></li>
+            <li class="month"><a href="#tabs-2">May, 24</a></li>
+            <li class="month"><a href="#tabs-1">Jun, 24</a></li>
+            <li class="month"><a href="#tabs-2">Jul, 24</a></li>
+          </ul>
+          <button class="arrow"></button>
+        </div>
+        <div id="tabs-1" style="height: 300px">
+          <div id="chartContainer1" style="height: 300px; width: 100%;"></div>
+        </div>
+        <div id="tabs-2" style="height: 300px">
+          <div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+        </div>
+      </div>
+    </div>
+
+    <main class="main" id="section2">
+      <section class="news">
+        <div class="news__banner">
+          <div class="news__banner-box">
+            <div class="news__banner-inner">
+              <img src="assets/pictures/trump.webp" alt="Trump" class="news__banner-img">
+              <h2 class="news__banner-title">Matt Gaetz quits House after he is picked by Trump for attorney general role</h2>
+            </div>
+          </div>
+          <a href="#" class="news__button">
+            <span class="news__button-text">Explore</span>
+            <span class="news__button-icon"></span>
+          </a>
+        </div>
+
+        <div class="news__list">
+          <div class="news__item">
+            <a href="#" class="news__item-title">World's largest coral found in the Great Barrier Reef</a>
+            <p class="news__item-text">
+              The coral could be 500 years old and is bigger than a blue whale, scientists say
+            </p>
+            <div class="news__item-info">
+              <span>2 hrs ago</span>
+              <span>Climate</span>
+            </div>
+          </div>
+
+          <div class="news__item">
+            <a href="#" class="news__item-title">Menopause, the other menstrual transition, marks the end of a woman's reproductive years</a>
+            <p class="news__item-text">
+              In India, where conversation on menstruation is stilli taboo, menopause awareness is far behind
+            </p>
+            <div class="news__item-info">
+              <span>4 hrs ago</span>
+              <span>Asia</span>
+            </div>
+          </div>
+
+          <div class="news__item">
+            <a href="#" class="news__item-title">Why Canada could become the next global leader in clean energy</a>
+            <p class="news__item-text">
+              With its rich resources, uranium mining companies want Canada to play a key role in fuelling nuclear energy production globally
+            </p>
+            <div class="news__item-info">
+              <span>5 hrs ago</span>
+              <span>US & Canada</span>
+            </div>
+          </div>
+
+          <div class="news__item">
+            <a href="#" class="news__item-title">Why does Pharrell's biopic sidestep the traditional narrative</a>
+            <p class="news__item-text">
+              The musician was fined $5m in a plagiarism lawsuit, but a film about his life doesn't touch on the controversy surrounding the case
+            </p>
+            <div class="news__item-info">
+              <span>2 hrs ago</span>
+              <span>Climate</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="latest" >
+        <h1 class="latest__title">Latest News</h1>
+        <div class="latest__list">
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Inside the secret summit that tried to stop deadly rap wars</a>
+            <p class="latest-news__text">
+              Before Tupac's murder, producer Quincy Jones brought stars together to try to end violence in the hip-hop community
+            </p>
+            <div class="latest-news__info">
+              <span>1 day ago</span>
+              <span>Culture</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Unemployment rises as pay growth slows again</a>
+            <p class="latest-news__text">
+              The UK's unemployment rate has risen, official figures suggest, while pay growth continues to stagnate
+            </p>
+            <div class="latest-news__info">
+              <span>15 hrs ago</span>
+              <span>London</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">When horror hits China, the first instinct is shut it down</a>
+            <p class="latest-news__text">
+              Chinese society is reeling from a series of deadly attacks. The reaction from authorities is often swift and involves
+            </p>
+            <div class="latest-news__info">
+              <span>1 day ago</span>
+              <span>Asia</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Zendaya: Working with Tom Holland is 'second nature'</a>
+            <p class="latest-news__text">
+              The actress tells Vanity Fair that working with her boyfriend is "strangely comfortable".
+            </p>
+            <div class="latest-news__info">
+              <span>12 hrs ago</span>
+              <span>Culture</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Cheap fix floated for plane vapour's climate damage</a>
+            <p class="latest-news__text">
+              The warming impact of the vapor trails that emerge from airplanes is being discussed at climate conferences worldwide
+            </p>
+            <div class="latest-news__info">
+              <span>1 day ago</span>
+              <span>Climate</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Does Kane's criticism expose England cracks?</a>
+            <p class="latest-news__text">
+              Harry Kane's thinly-veiled criticism of England absentees increases current sense of drift.
+            </p>
+            <div class="latest-news__info">
+              <span>8 hrs ago</span>
+              <span>Sport</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Some players 'lucky enough' to face Pumas - Farrell</a>
+            <p class="latest-news__text">
+              Andy Farrell welcomes the pressure last week's All Blacks loss has put on Ireland and admits some of the best performances come
+            </p>
+            <div class="latest-news__info">
+              <span>13 hrs ago</span>
+              <span>Sport</span>
+            </div>
+          </div>
+
+          <div class="latest-news">
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">How Japan's youngest CEO transformed Hello Kitty</a>
+            <p class="latest-news__text">
+              As the cute character celebrates her 50th anniversary, the firm behind it is now a trillion yen enterprise
+            </p>
+            <div class="latest-news__info">
+              <span>2 days ago</span>
+              <span>Asia</span>
+            </div>
+          </div>
+
+          <!-- Hidden news: -->
+
+          <div class="latest-news" data-news-hidden>
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Inside the secret summit that tried to stop deadly rap wars</a>
+            <p class="latest-news__text">
+              Before Tupac's murder, producer Quincy Jones brought stars together to try to end violence in the hip-hop community
+            </p>
+            <div class="latest-news__info">
+              <span>1 day ago</span>
+              <span>Culture</span>
+            </div>
+          </div>
+
+          <div class="latest-news" data-news-hidden>
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Unemployment rises as pay growth slows again</a>
+            <p class="latest-news__text">
+              The UK's unemployment rate has risen, official figures suggest, while pay growth continues to stagnate
+            </p>
+            <div class="latest-news__info">
+              <span>15 hrs ago</span>
+              <span>London</span>
+            </div>
+          </div>
+
+          <div class="latest-news" data-news-hidden>
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">When horror hits China, the first instinct is shut it down</a>
+            <p class="latest-news__text">
+              Chinese society is reeling from a series of deadly attacks. The reaction from authorities is often swift and involves
+            </p>
+            <div class="latest-news__info">
+              <span>1 day ago</span>
+              <span>Asia</span>
+            </div>
+          </div>
+
+          <div class="latest-news" data-news-hidden>
+            <div class="latest-news__image">
+              <a href="#">
+                <img src="assets/pictures/news.webp" alt="Latest news" class="latest-news__image-pic">
+              </a>
+            </div>
+            <a href="#" class="latest-news__title">Zendaya: Working with Tom Holland is 'second nature'</a>
+            <p class="latest-news__text">
+              The actress tells Vanity Fair that working with her boyfriend is "strangely comfortable".
+            </p>
+            <div class="latest-news__info">
+              <span>12 hrs ago</span>
+              <span>Culture</span>
+            </div>
+          </div>
+        </div>
+        <div class="latest__footer">
+          <div class="button" data-show-more>Read More</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/jquery-ui.1.11.2.min.js"></script>
+  <script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
+  <script src="assets/showMore.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
